@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bootstrap beginner</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <style>
-        body {
+   <style>
+     
+
+
+     body {
   padding: 0;
   margin: 0;
   background: #f2f6e9;
@@ -32,7 +35,7 @@
 }
 
 .header {
-  background-image: url(./IMG_20191008_103358.jpg);
+  background-image: url(./natasha-spencer-_hH0dC6A-FM-unsplash.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -66,7 +69,7 @@
 
 .features{
     margin:4em auto;
-    padding:1em;
+    padding:12em;
     position: relative;
 }
 
@@ -108,16 +111,25 @@
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="main-navigation">
-    <ul class="navbar-nav">
-      <li class="nav-item">
+  <div class="collapse navbar-collapse navbar fixed-top" id="main-navigation">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="donation.html">Donate</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">Available</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="demand.html">Demand</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
@@ -125,33 +137,35 @@
 
 <header class="page-header header header-fluid">
     <div class="overlay">
-        <div class="description">
-            <h1>hello /h1>
-            <p>There was a issue faced when someone passes away in family 
+        <div class="description ">
+            <h1>hello </h1>
+            <p>help everyone by donating!
             </p>
-            <button class="btn btn-outline-secondary btn-lg">follow me on <a href="#" alt="insta">Instagram</a></button>
+            <button class="btn btn-outline-secondary btn-lg">donate now! <a href="#" alt="insta">Instagram</a></button>
         </div>
     </div>
+
 
 </header>
-
-<div class="container features">
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h3 class="feature-title">food</h3>
-            <img src="" class="img-fluid">
-            <p>Momos are the real love of estancy which I have experienced, they always seems to attract me toward themself</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">mood</h3>
-                <img src="" class="img-fluid">
-                <p> I am a very moody person from laughing on to one second, to being super angry on another.</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">    
-                </div>
-            
-    </div>
+ 
+<!--main contents-->
+<div class="container">
+  <div class="work">
+    <h1>How does it work</h1>
+    <p>The products are deliverd packed up and deliverd to us by the courier.
+      Then a team of maintainer will check for any treatment that is need to preserve the product.
+      If the product matches our guidlines it will be available to public with a nominal fees of delivery and handling charges.
+    </p>
+  </div>
 </div>
+
+<div class="container"></div>
+  <div class="work3">
+    <h1>what is our aim</h1>
+    <p>The aim i</p>
+  </div>
+</div>
+
 <footer class="page-footer">
     <div class="container">
         <div class="foot">
@@ -166,6 +180,8 @@
       $(document).ready(function(){
   $('.header').height($(window).height());
 })
+
+
     </script>
 </body>
-</html>z
+</html>
