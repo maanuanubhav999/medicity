@@ -1,3 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+  font-family: 'Raleway', sans-serif;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#0dc4d1;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-left: 2em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+
 .container {
     max-width: 960px;
   }

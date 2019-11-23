@@ -4,117 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bootstrap beginner</title>
+    <title>medicity</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <style>
-     
-
-
-     body {
-  padding: 0;
-  margin: 0;
-  background: #f2f6e9;
-}
-/*--- navigation bar ---*/
-.navbar {
-  background:#0dc4d1;
-}
-.nav-link,
-.navbar-brand {
-  color: #fff;
-  cursor: pointer;
-}
-.nav-link {
-  margin-left: 2em !important;
-}
-.nav-link:hover {
-  color: #000;
-}
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-.header {
-  background-image: url(./natasha-spencer-_hH0dC6A-FM-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.6);
-
-}
-
-.description {
-  left: 50%;
-  position: absolute;
-  top: 45%;
-  transform: translate(-50%, -55%);
-  text-align: center;
-}
-.description h1 {
-  color: #6ab446;
-}
-.description p {
-  color: #fff;
-  font-size: 1.3rem;
-  line-height: 1.5;
-}
-
-.features{
-    margin:4em auto;
-    padding:12em;
-    position: relative;
-}
-
-.feature-title{
-    color: #333;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-
-}
-
-.features img{
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  margin-bottom: 16px;
-}
-
-.page-footer {
-  background-color: rgb(212, 75, 75);
-  color: #ccc;
-  padding: 60px 0 30px;
-}
-
-.foot{
-    text-align: center;
-}
-
-.img{
-    height: 20px;
-    width: 20px;
-}
-    </style>
+  
+     <link href="index.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-        <nav class="navbar navbar-expand-md">
-  <a class="navbar-brand" href="#">Logo</a>
-  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark box-shadow fixed-top">
+  <a class="navbar-brand" href="index.html">Medicity</a>
+   
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse navbar fixed-top" id="main-navigation">
+  <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="donation.html">Donate</a>
@@ -138,10 +47,10 @@
 <header class="page-header header header-fluid">
     <div class="overlay">
         <div class="description ">
-            <h1>hello </h1>
+            <h1>HELLO! </h1>
             <p>help everyone by donating!
             </p>
-            <button class="btn btn-outline-secondary btn-lg">donate now! <a href="#" alt="insta">Instagram</a></button>
+            <button class="btn btn-outline-primary btn-lg "> <a href="login.html"><b>donate now!</b></a></button>
         </div>
     </div>
 
@@ -149,23 +58,39 @@
 </header>
  
 <!--main contents-->
-<div class="container">
-  <div class="work">
-    <h1>How does it work</h1>
-    <p>The products are deliverd packed up and deliverd to us by the courier.
-      Then a team of maintainer will check for any treatment that is need to preserve the product.
-      If the product matches our guidlines it will be available to public with a nominal fees of delivery and handling charges.
-    </p>
+<div class="container-fluid">
+  <div class="row">
+    <!--first col-->
+    <div class="col-md-12">
+      <div class="card mb-12">
+        <div class="card-title">
+          <h2>How we work</h2>
+        </div>
+        <div class="card-body">
+            The products are deliverd packed up and deliverd to us by the courier.
+            Then a team of maintainer will check for any treatment that is need to preserve the product.
+            If the product matches our guidlines it will be available to public with a nominal fees of delivery and handling charges.
+        </div>
+      </div>
+    </div>
+    <!--second col-->
+    <div class="col-md-12">
+        <div class="card mb-12">
+          <div class="card-title">
+            <h2>Introduction</h2>
+          </div>
+          <div class="card-body">
+              The medicinal waste can which has no use should be proper disposed off. We collarborate with the lcoal hospitals near you that ensurees the proper waste managment
+
+              according who =Of the total amount of waste generated by health-care activities, about 85% is general, non-hazardous waste. The remaining 15% is considered hazardous material that may be infectious, toxic or radioactive. Every year an estimated 16 billion injections are administered worldwide, but not all of the needles and syringes are properly disposed of afterwards. Open burning and incineration of health care wastes can, under some circumstances, result in the emission of dioxins, furans, and particulate matter. Measures to ensure the safe and environmentally sound management of health care wastes can prevent adverse health and environmental impacts from such waste including the unintended release of chemical or biological hazards, including drug-resistant microorganisms, into the environment thus protecting the health of patients, health workers, and the general public. India is likely to generate about 775.5 tonnes of medical waste per day by 2022 from the current level of 550.9 tonnes daily, a study conducted jointly by industry body ASSOCHAM and Velocity has said. 
+          </div>
+        </div>
+        </div>
+    </div>
   </div>
 </div>
 
-<div class="container"></div>
-  <div class="work3">
-    <h1>what is our aim</h1>
-    <p>The aim i</p>
-  </div>
-</div>
-
+<!--footer-->
 <footer class="page-footer">
     <div class="container">
         <div class="foot">
