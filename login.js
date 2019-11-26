@@ -7,7 +7,7 @@ signupForm.addEventListener('submit',(e)=>{
 //get user info
 const email=signupForm['inputEmail'].value;
 const password=signupForm['inputPassword'].value;
- window.location.href="donation.html"   
+//  window.location.href="donation.html"   
 
 
 //sign up detail
@@ -20,9 +20,9 @@ const password=signupForm['inputPassword'].value;
 
 // });
 
-// firebase.auth().signInWithEmailAndPassword(email, password).then(cred => {
+firebase.auth().signInWithEmailAndPassword(email, password).then(cred => {
  
-//   window.location.href="donation.html"   
+  window.location.href="donation.html"   
 
 //   });
 
